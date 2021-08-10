@@ -1,0 +1,46 @@
+
+.app__main__info{
+    min-height: 1320px;
+    max-width: 800px;
+    width: 100%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    grid-row: 1/3;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 10px;
+    padding-bottom: 25px;
+}
+.app__main__players{
+    display: flex;
+    flex-direction: column;
+}
+.app__main__section{
+    padding: 25px 20px 0;
+    animation-name: show;
+    animation-duration: 1s;
+}
+.app__main__section__players{
+    padding-top: 20px;
+}
+
+
+@keyframes show{
+    from{
+        opacity: 0.1;
+        margin-right: 180px;
+    }
+    to{
+        opacity: 1;
+        margin-right: 0;
+    }
+} 
+
+@media screen and (max-width: 980px) {
+    .app__main__info{
+        grid-column: 1/2;
+        grid-row: 2/3;
+        margin: 0 auto;
+    }
+}

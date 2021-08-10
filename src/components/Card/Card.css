@@ -1,0 +1,67 @@
+
+.app__card{
+    background-color: #fff;
+    display: flex;
+    padding: 5px 20px;
+    align-items: center;
+    max-width: 238px;
+    min-height: 109px;
+    border-radius: 10px;
+}
+.app__card__content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.app__card__title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 116.88%;
+    display: flex;
+    align-items: center;
+    color: #C1C1C1;
+}
+.app__card__person{
+    display: flex;
+    align-items: center;
+    min-height: 60px;
+    max-width: 190px;
+}
+.app__card__name{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 116.88%;
+    color: #021B31;
+}
+.app__card__footer{
+    display: flex;
+    justify-content: space-between;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 116.88%;
+    width: 100%;
+}
+
+@media screen and (max-width: 980px) {
+    .app__card{
+        max-width: 315px;
+        min-height: 149px;
+       width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 597px) {
+    .app__card{
+        margin-bottom: 10px;
+        max-width: 238px;
+        min-height: 109px;
+        width: auto;
+    }
+}

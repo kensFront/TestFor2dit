@@ -282,7 +282,96 @@ const store = {
                 teamComposition: [{
                     id: 1,
                     urlIcon: '/images/player/flag.png',
-                    playerName: 'Никонор Черчесов',
+                    playerName: 'Антон Федюшкин',
+                    yellowCard: true,
+                    redCard: true,
+                    replace: true,
+                    position: "ВРТ",
+                    time: '83`'
+                },
+                {
+                    id: 2,
+                    urlIcon: '/images/player/flag.png',
+                    playerName: 'Кирилл Дворецкий',
+                    yellowCard: true,
+                    redCard: true,
+                    replace: true,
+                    position: "ВРТ",
+                    time: '83`'
+                },
+                {
+                    id: 3,
+                    urlIcon: '/images/player/flag.png',
+                    playerName: 'Кирилл Дворецкий',
+                    yellowCard: true,
+                    redCard: true,
+                    replace: true,
+                    position: "ВРТ",
+                    time: '83`'
+                },
+                {
+                    id: 4,
+                    urlIcon: '/images/player/flag.png',
+                    playerName: 'Дмитрий Герасимов',
+                    yellowCard: true,
+                    redCard: true,
+                    replace: true,
+                    position: "ВРТ",
+                    time: '83`'
+                },
+                {
+                    id: 5,
+                    urlIcon: '/images/player/flag.png',
+                    playerName: 'Алексей Иванов',
+                    yellowCard: true,
+                    redCard: true,
+                    replace: true,
+                    position: "ВРТ",
+                    time: '83`'
+                },
+                {
+                    id: 6,
+                    urlIcon: '/images/player/flag.png',
+                    playerName: 'Никита Мельников',
+                    yellowCard: true,
+                    redCard: true,
+                    replace: true,
+                    position: "ВРТ",
+                    time: '83`'
+                }, {
+                    id: 7,
+                    urlIcon: '/images/player/flag.png',
+                    playerName: 'Дмитрий Ращупкин',
+                    yellowCard: true,
+                    redCard: true,
+                    replace: true,
+                    position: "ВРТ",
+                    time: '83`'
+                },
+                {
+                    id: 8,
+                    urlIcon: '/images/player/flag.png',
+                    playerName: 'Дмитрий Ращупкин',
+                    yellowCard: true,
+                    redCard: true,
+                    replace: true,
+                    position: "ВРТ",
+                    time: '83`'
+                },
+                {
+                    id: 9,
+                    urlIcon: '/images/player/flag.png',
+                    playerName: 'Дмитрий Ращупкин',
+                    yellowCard: true,
+                    redCard: true,
+                    replace: true,
+                    position: "ВРТ",
+                    time: '83`'
+                },
+                {
+                    id: 10,
+                    urlIcon: '/images/player/flag.png',
+                    playerName: 'Дмитрий Ращупкин',
                     yellowCard: true,
                     redCard: true,
                     replace: true,
@@ -290,7 +379,43 @@ const store = {
                     time: '83`'
                 },
                 ]
-            }]
+            },
+            {
+                title: "Запасные",
+                teamComposition: [{
+                    id: 1,
+                    urlIcon: '/images/player/flag.png',
+                    playerName: 'Антон Федюшкин',
+                    yellowCard: true,
+                    redCard: true,
+                    replace: true,
+                    position: "ВРТ",
+                    time: '83`'
+                },
+                {
+                    id: 2,
+                    urlIcon: '/images/player/flag.png',
+                    playerName: 'Дмитрий Стародуб',
+                    yellowCard: true,
+                    redCard: true,
+                    replace: true,
+                    position: "ВРТ",
+                    time: '83`'
+                }
+                    ,
+                {
+                    id: 3,
+                    urlIcon: '/images/player/flag.png',
+                    playerName: 'Илья Сериков',
+                    yellowCard: true,
+                    redCard: true,
+                    replace: true,
+                    position: "ВРТ",
+                    time: '83`'
+                }
+                ],
+            }
+            ]
         },
     ],
     arena: {

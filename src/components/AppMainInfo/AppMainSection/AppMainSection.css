@@ -8,6 +8,7 @@
     text-transform: uppercase;
     color: #C1C1C1;
     padding: 0 10px;
+    mih-height:18px;
 }
 
 @keyframes show{
